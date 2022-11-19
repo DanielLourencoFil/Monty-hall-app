@@ -1,0 +1,52 @@
+.portWrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.port {
+	position: relative;
+	width: 150px;
+	height: 250px;
+	background-color: #a85f00;
+	border: 5px solid #992400;
+	border-bottom: none;
+}
+.number {
+	text-align: center;
+	margin-top: 0.5rem;
+	font-size: 2rem;
+	color: #fff;
+}
+.knot {
+	position: absolute;
+	top: 40%;
+	left: 0.5rem;
+	height: 15px;
+	width: 15px;
+	background-color: #992400;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.base {
+	width: 160px;
+	height: 10px;
+	background-color: #fff;
+}
+.selected.port {
+	border-color: #f8f41b;
+}
+.selected.number {
+	color: #f8f41b;
+}
+.selected.knot {
+	background-color: #f8f41b;
+}
+.open {
+	background-color: #000000;
+}
+.open.knot {
+	display: none;
+}
+.open.number {
+	color: #000000;
+}

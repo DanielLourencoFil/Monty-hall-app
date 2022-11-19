@@ -1,0 +1,31 @@
+.presentΒox {
+	position: relative;
+	bottom: -44.5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.top {
+	width: 100px;
+	height: 25px;
+	background-color: #0fb400;
+}
+.body {
+	width: 90px;
+	height: 60px;
+	background-color: #0a7c00;
+}
+.wrapper1 {
+	position: absolute;
+	top: 0;
+	width: 15px;
+	height: 85px;
+	background-color: #b40000;
+}
+.wrapper2 {
+	position: absolute;
+	top: 40px;
+	width: 90px;
+	height: 15px;
+	background-color: #b40000;
+}
